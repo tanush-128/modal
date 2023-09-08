@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+}
+
+#button,#close{
+ color: white;
+ background-color: black;
+ padding: 16px;
+ border-radius: 12px;
+ border: 0px;
+ /* height: 32px;/ */
+
+}
+
+#modal{
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 12px;
+    padding: 16px;
+    display: none;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+
+    width: 300px;
+    height: 300px;
+
+}
